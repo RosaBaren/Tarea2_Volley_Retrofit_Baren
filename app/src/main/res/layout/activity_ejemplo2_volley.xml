@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejemplo2Volley">
+
+    <TextView
+        android:id="@+id/text_view_result2"
+        android:layout_width="344dp"
+        android:layout_height="494dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="109dp"
+        android:scrollbars="vertical|horizontal"
+        android:textAlignment="textStart"
+        android:textColor="#596CD6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="65dp" />
+</RelativeLayout>
